@@ -1,0 +1,19 @@
+# routing configuration
+# destination	mask	gateway	interface
+#[host|net] xx.xx.xx.xx [netmask] xx.xx.xx.xx [gw] xx.xx.xx.xx [[dev] if]
+
+#net 127.0.0.0 netmask 255.255.255.0 gw 127.0.0.1 dev seth0
+#net 127.0.0.0 netmask 255.255.0.0 gw 127.0.0.1 dev seth1
+
+net 127.0.0.0 netmask 255.0.0.0 gw 127.0.0.1 dev seth0
+host 127.0.0.1 dev seth0
+host 128.32.33.5 dev seth0
+net 140.252.13.32 netmask 255.255.255.224 gw 192.168.0.1 seth0
+host 140.252.13.33
+host 140.252.13.34
+host 140.252.13.35
+host 140.252.13.65
+net 224.0.0.0 netmask 255.0.0.0 gw 192.168.0.1 seth0
+host 224.0.0.1
+
+

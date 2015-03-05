@@ -1,0 +1,7 @@
+# routing configuration
+# destination	mask	gateway	interface
+#[host|net] xx.xx.xx.xx [netmask] xx.xx.xx.xx [gw] xx.xx.xx.xx [[dev] if]
+
+net 10.0.0.0 netmask 255.255.255.0 gw 10.10.0.2 dev seth1
+
+
